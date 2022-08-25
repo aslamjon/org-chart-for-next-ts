@@ -3,17 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@dabeng/react-orgchart": "^1.0.0",
     "lodash": "^4.17.21",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-org-chart-for-next": "github:aslamjon/react-org-chart-for-next"
+    "react-org-chart-for-next": "github:aslamjon/react-org-chart-for-next",
+    "react-orgchart": "github:aslamjon/react-orgchart"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.184",
